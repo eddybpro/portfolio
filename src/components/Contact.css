@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.contact {
+  margin: 2rem 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact_subtitle {
+  color: #03b1fc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact_title {
+  font-size: 3rem;
+  color: #0a0a0a;
+  margin-bottom: 2rem;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-icon {
+  color: #03b1fc;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact-name {
+  font-size: 1.6rem;
+  color: #0a0a0a;
+  margin-bottom: 0.7rem;
+}
+
+.contact-type {
+  font-size: 1.6rem;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-type:hover {
+  color: #03b1fc;
+}
+
+@media screen and (min-width: 900px) {
+  .contact {
+    /* max-width: 100rem; */
+    padding: 3rem 10%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .contact-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 6rem;
+  }
+
+  .contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+}

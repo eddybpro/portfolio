@@ -1,0 +1,555 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  padding: 0rem;
+  background-color: #0a0a0a;
+}
+
+.hero-img-container {
+  display: grid;
+  place-items: center;
+  height: 25rem;
+  width: 100%;
+  background-image: url("../assets/img-container.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.75rem;
+  font-weight: bold;
+  position: absolute;
+}
+
+.skill-1 {
+  animation: move1 8s linear infinite;
+}
+
+@keyframes move1 {
+  from {
+    top: 0;
+    left: 0;
+    color: red;
+  }
+
+  to {
+    top: 0;
+    left: 100%;
+    color: yellow;
+  }
+}
+
+.skill-2 {
+  animation: move2 8s linear infinite;
+}
+
+@keyframes move2 {
+  from {
+    top: 10%;
+    left: 100%;
+    color: white;
+  }
+
+  to {
+    top: 10%;
+    left: 0;
+    color: palevioletred;
+  }
+}
+
+.skill-3 {
+  animation: move3 8s linear infinite;
+}
+
+@keyframes move3 {
+  from {
+    top: 20%;
+    left: 0;
+    color: orange;
+  }
+
+  to {
+    top: 20%;
+    left: 100%;
+    color: green;
+  }
+}
+
+.skill-4 {
+  animation: move4 8s linear infinite;
+}
+
+@keyframes move4 {
+  from {
+    top: 30%;
+    left: 100%;
+    color: yellow;
+  }
+
+  to {
+    top: 30%;
+    left: 0;
+    color: green;
+  }
+}
+
+.skill-5 {
+  animation: move5 8s linear infinite;
+}
+
+@keyframes move5 {
+  from {
+    top: 40%;
+    left: 0;
+    color: orange;
+  }
+
+  to {
+    top: 40%;
+    left: 100%;
+    color: green;
+  }
+}
+
+.skill-6 {
+  animation: move6 8s linear infinite;
+}
+
+@keyframes move6 {
+  from {
+    top: 50%;
+    left: 100%;
+    color: rgb(192, 5, 114);
+  }
+
+  to {
+    top: 50%;
+    left: 0;
+    color: rgb(235, 20, 38);
+  }
+}
+
+.skill-7 {
+  animation: move7 8s linear infinite;
+}
+
+@keyframes move7 {
+  from {
+    top: 60%;
+    left: 0;
+    color: rgb(38, 255, 0);
+  }
+
+  to {
+    top: 60%;
+    left: 100%;
+    color: rgb(250, 7, 201);
+  }
+}
+
+.skill-8 {
+  animation: move8 8s linear infinite;
+}
+
+@keyframes move8 {
+  from {
+    top: 70%;
+    left: 100%;
+    color: rgb(38, 255, 0);
+  }
+
+  to {
+    top: 70%;
+    left: 0;
+    color: rgb(247, 180, 121);
+  }
+}
+
+.skill-9 {
+  animation: move9 8s linear infinite;
+}
+
+@keyframes move9 {
+  from {
+    top: 75%;
+    left: 0;
+    color: rgb(187, 219, 1);
+  }
+
+  to {
+    top: 75%;
+    left: 100%;
+    color: rgb(80, 232, 131);
+  }
+}
+
+.skill-10 {
+  animation: move10 8s linear infinite;
+}
+
+@keyframes move10 {
+  from {
+    top: 80%;
+    left: 0;
+    color: rgb(175, 230, 74);
+  }
+
+  to {
+    top: 80%;
+    left: 100%;
+    color: rgb(232, 41, 3);
+  }
+}
+
+.skill-11 {
+  animation: move11 8s linear infinite;
+}
+
+@keyframes move11 {
+  from {
+    top: 85%;
+    left: 100%;
+    color: rgb(193, 227, 112);
+  }
+
+  to {
+    top: 85%;
+    left: 0;
+    color: rgb(250, 7, 201);
+  }
+}
+
+.skill-12 {
+  animation: move12 8s linear infinite;
+}
+
+@keyframes move12 {
+  from {
+    top: 90%;
+    left: 100%;
+    color: red;
+  }
+
+  to {
+    top: 90%;
+    left: 0;
+    color: rgb(247, 248, 247);
+  }
+}
+
+.skill-13 {
+  animation: move13 8s 2s linear infinite;
+}
+
+@keyframes move13 {
+  from {
+    top: 0;
+    left: 0;
+    color: red;
+  }
+
+  to {
+    top: 0;
+    left: 100%;
+    color: rgb(247, 248, 247);
+  }
+}
+
+.skill-14 {
+  animation: move14 8s 2s linear infinite;
+}
+
+@keyframes move14 {
+  from {
+    top: 10%;
+    left: 100%;
+    color: #f207a0;
+  }
+
+  to {
+    top: 10%;
+    left: 0;
+    color: rgb(247, 248, 247);
+  }
+}
+
+.skill-15 {
+  animation: move15 8s 2s linear infinite;
+}
+
+@keyframes move15 {
+  from {
+    top: 20%;
+    left: 0;
+    color: rgb(255, 0, 136);
+  }
+
+  to {
+    top: 20%;
+    left: 100%;
+    color: yellow;
+  }
+}
+
+.skill-16 {
+  animation: move16 8s 3s linear infinite;
+}
+
+@keyframes move16 {
+  from {
+    top: 30%;
+    left: 100%;
+    color: rgb(255, 0, 153);
+  }
+
+  to {
+    top: 30%;
+    left: 0;
+    color: rgb(10, 146, 10);
+  }
+}
+
+.skill-17 {
+  animation: move17 8s 2s linear infinite;
+}
+
+@keyframes move17 {
+  from {
+    top: 40%;
+    left: 0;
+    color: white;
+  }
+
+  to {
+    top: 40%;
+    left: 100%;
+    color: rgb(247, 248, 247);
+  }
+}
+
+.skill-18 {
+  animation: move18 8s 2s linear infinite;
+}
+
+@keyframes move18 {
+  from {
+    top: 50%;
+    left: 100%;
+    color: rgb(242, 8, 137);
+  }
+
+  to {
+    top: 50%;
+    left: 0;
+    color: rgb(242, 8, 137);
+  }
+}
+
+.skill-19 {
+  animation: move19 8s 3s linear infinite;
+}
+
+@keyframes move19 {
+  from {
+    top: 60%;
+    left: 0;
+    color: rgb(244, 196, 4);
+  }
+
+  to {
+    top: 60%;
+    left: 100%;
+    color: rgb(244, 196, 4);
+  }
+}
+
+.skill-20 {
+  animation: move20 8s 3s linear infinite;
+}
+
+@keyframes move20 {
+  from {
+    top: 70%;
+    left: 100%;
+    color: greenyellow;
+  }
+
+  to {
+    top: 70%;
+    left: 0;
+    color: yellow;
+  }
+}
+
+.skill-21 {
+  animation: move21 8s 3s linear infinite;
+}
+
+@keyframes move21 {
+  from {
+    top: 75%;
+    left: 0;
+    color: red;
+  }
+
+  to {
+    top: 75%;
+    left: 100%;
+    color: red;
+  }
+}
+
+.skill-22 {
+  animation: move22 8s 3s linear infinite;
+}
+
+@keyframes move22 {
+  from {
+    top: 80%;
+    left: 0;
+    color: rgb(202, 223, 13);
+  }
+
+  to {
+    top: 80%;
+    left: 100%;
+    color: yellow;
+  }
+}
+
+.skill-23 {
+  animation: move23 8s 2s linear infinite;
+}
+
+@keyframes move23 {
+  from {
+    top: 85%;
+    left: 100%;
+    color: greenyellow;
+  }
+
+  to {
+    top: 85%;
+    left: 0;
+    color: yellow;
+  }
+}
+
+.skill-24 {
+  animation: move24 8s 5s linear infinite;
+}
+
+@keyframes move24 {
+  from {
+    top: 90%;
+    left: 100%;
+    color: orange;
+  }
+
+  to {
+    top: 90%;
+    left: 0;
+    color: yellow;
+  }
+}
+
+.txt-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.para {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+.social-icon {
+  color: #03b1fc;
+  font-size: 3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #f207a0;
+}
+
+.tech-stack-box {
+  text-align: center;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.sub-title {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skill-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 7rem);
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.skill-box_img {
+  display: block;
+  border-radius: 2rem;
+  width: 7rem;
+  height: 7rem;
+}
+
+@media screen and (min-width: 600px) {
+  .txt-container {
+    max-width: 60rem;
+    margin: auto;
+  }
+
+  .skill-box {
+    column-gap: 6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .header {
+    border-bottom-right-radius: 15%;
+  }
+
+  .hero-img-container {
+    height: 80vh;
+  }
+}
